@@ -7,9 +7,7 @@ import sys
 
 
 def build_model(words, model):
-    # он ругался на default dict от counter
-    # поэтому просто словарь от counter
-    # я не знаю почему
+
     for i in range(len(words) - 1):
         current_word = words[i]
         next_word = words[i + 1]
